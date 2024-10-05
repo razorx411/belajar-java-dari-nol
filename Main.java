@@ -1,0 +1,49 @@
+// 1. KOMENTAR DAN TIPE DATA
+
+// komentar sebaris
+
+/*
+ komen blok
+ */
+
+/*Tipe  Data	Ukuran (byte)	        Jenis Data	Rentang Nilai	            Contoh Nilai
+boolean	        1	                    Primitif	true atau false	            true, false
+byte	        1	                    Primitif	-128 hingga 127	            -127, 0, 127
+short	        2	                    Primitif	-32.768                     hingga              32.767	-1000, 20000
+int	            4	                    Primitif	-2.147.483.648              hingga 2.147.483.647	-1000000, 1234567
+long	        8	                    Primitif	-9.223.372.036.854.775.808  hingga 9.223.372.036.854.775.807	-1000000000000, 1234567890123456789
+float	        4	                    Primitif	Bilangan pecahan hingga 6-7 digit desimal	3.14159f, -0.25f
+double	        8	                    Primitif	Bilangan pecahan hingga 15  digit desimal	3.141592653589793, -123.4567890123456789
+char	        2	                    Primitif	Karakter tunggal (ASCII)	'a', 'Z', '$'
+String	                                Variabel	Referensi	                Sekumpulan karakter	"Hello, World!", "Java Programming"*/
+
+//CONTOH DECLARE
+
+public class Main {
+
+    public static void main(String[] args) {
+        int x; // contoh deklarasi
+
+        x = 89; // contoh assignment
+
+        System.out.println(x);
+
+        // bagaimana kalau langsung?
+
+        int y = 1089; // penggabungan/langsung dinamakan inisialisasi
+
+        System.out.println(y);
+
+        boolean z = false;
+        byte umur = 18;
+        float rumus = 3.14f;
+        String user = "Ace";
+
+        System.out.println("user is Razor = " +z);
+        System.out.println("user is " +user);
+        System.out.println("user age is " +umur );
+        System.out.println("rumus phi = " +rumus);
+    }
+}
+
+
